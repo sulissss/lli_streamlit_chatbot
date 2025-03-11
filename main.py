@@ -1,9 +1,6 @@
-from dotenv import load_dotenv
 from google import genai
 import streamlit as st
 import os
-
-load_dotenv('keys.env')
 
 # Initialize the Gemini client with your API key
 
