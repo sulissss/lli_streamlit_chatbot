@@ -63,10 +63,18 @@ if prompt := st.chat_input("Enter your query"):
     response_placeholder = ai_message_placeholder.empty()
 
     # Stream AI's response and update in real-time
+    # Stream AI's response and update in real-time
     full_response = ""
     for streamed_response in stream_response(prompt):
         full_response += streamed_response
-        response_placeholder.markdown(full_response)
+        if "$" in full_response or "\\(" in full_response:
+            response_placeholder.latex(full_response)
+        else:
+            response_placeholder.markdown(full_response)
+    
+    # Add the AI's full response to the session history
+    st.session_state.messages.append({"role": "ai", "content": full_response})
+
 
     # Detect LaTeX and render properly
     with ai_message_placeholder:
