@@ -5,7 +5,7 @@ from google import genai
 from utils import render_text_with_latex
 from llm import stream_response
 from dotenv import load_dotenv
-from mongodb import load_problem_sets
+# from mongodb import load_problem_sets
 
 load_dotenv('.env')
 
