@@ -1,0 +1,7 @@
+**Problem 13.** (1 point)
+
+Suppose that \(f (x) = (x + 1) (x - 1)\) for all numbers \(x\).
+
+Find \(f'(x) =\)
+
+---

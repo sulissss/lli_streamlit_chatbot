@@ -1,0 +1,7 @@
+**Problem 15.** (1 point)
+
+A function is said to have a **horizontal asymptote** if either the limit at infinity exists or the limit at negative infinity exists.
+
+Show that each of the following functions has a horizontal asymptote by calculating the given limit.
+
+\( \displaystyle{ \lim_{x\to\infty}\frac{-13 x}{8+2 x}= } \)

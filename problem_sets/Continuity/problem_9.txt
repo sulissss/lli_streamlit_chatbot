@@ -1,0 +1,5 @@
+**Problem 9.** *(1 point)*
+
+Evaluate the following limits without using a calculator. Enter *DNE* if the limit does not exist.
+
+(a) \(\displaystyle \lim_{x \to - 1^{+}} (x+6) \frac{|x+1|}{x+1} =\)

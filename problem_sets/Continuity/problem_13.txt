@@ -1,0 +1,7 @@
+**Problem 13.** (1 point)
+
+Consider the following limit:
+\[\lim_{x\to 3}\frac{18 - 3 x - |x^2 - 6 x|}{|x^2- 36| - 27}\]
+We can simplify this limit by rewriting it as an expression without absolute values as follows:
+
+\(\lim_{x\to 3}\)

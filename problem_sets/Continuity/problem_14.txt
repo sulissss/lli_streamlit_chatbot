@@ -1,0 +1,10 @@
+**Problem 14.** (1 point)
+
+Let
+\[f(x) = \begin{cases}\displaystyle{b-2x}&\text{if}\ x < -1\cr
+\displaystyle{-\frac{6}{x-b}}&\text{if}\ x \ge -1.\end{cases}\]
+Find the two values of \(b\) for which \(f\) is
+a continuous function at \(-1\).
+
+The one with the greater absolute value is
+\(b=\)\mbox{\parbox[t]{7.5ex}{}}

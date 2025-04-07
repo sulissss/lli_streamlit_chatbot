@@ -1,0 +1,23 @@
+**Problem 8.** (1 point)
+
+If \(\displaystyle{\lim_{x\rightarrow a} f(x)=0}\) and 
+\(\displaystyle{\lim_{x\rightarrow a} g(x)=0}\), then 
+\(\displaystyle{\lim_{x\rightarrow a} \frac{f(x)}{g(x)}}\)
+ 
+
+*   A. is equal to one. 
+*   B. is equal to \(\infty\). 
+*   C. must exist. 
+*   D. does not exist. 
+*   E. cannot be determined because there is not enough information. 
+
+
+In the answer box below, explain your reasoning for the choice you made above. 
+
+Use complete sentences and correct grammar, 
+spelling, and punctuation. Be specific and 
+detailed. Write as if you were explaining the 
+answer to someone else in class. 
+
+
+[Space for answer]

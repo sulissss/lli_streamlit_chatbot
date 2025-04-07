@@ -1,0 +1,19 @@
+**Problem 6.** (1 point) (Problem source: setIntroduction_to_Derivative/Intro_to_derivative_problem_9.pg)
+
+***
+
+**Problem**
+
+Suppose that \(f(x) = x^{2/3}\) for all numbers \(x > 0\).
+
+Determine what
+
+  \[\dfrac{f(p) - 8.08757939909006}{p - 23}\]
+
+approaches as \(p\) approaches 23.
+
+\[\dfrac {2} {3*23^?}\]
+
+where ? =  
+
+---

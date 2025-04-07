@@ -1,0 +1,17 @@
+**Problem 9.** (1 point) *setIntroduction_to_Derivative/Intro_to_derivative_problem_13.pg*
+
+**Problem**
+
+Suppose that \(n\) is a positive integer and \(f (x) = {x^{1/n}}\) for all numbers \(x\).
+
+if \(a> 0\) is a number, determine what
+  \(rac{f (p) - f (a)}{p - a}\)
+  
+  
+  
+  approaches as \(p\) approaches a.
+
+\(rac {1}{na^{?/n}}\)
+ where ? =
+
+---

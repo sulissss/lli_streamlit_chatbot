@@ -1,0 +1,13 @@
+**Problem 12.** (1 point)
+
+Problem
+
+Suppose that each of \(g\) and \(h\) is a function with domain all numbers and \(f\) is the function so that \(f (x) = g (x) - h (x)\). Suppose also that each of \(g\) and \(h\) has domain all numbers.
+
+Show that \(f' (x) = g' (x) - h' (x)\) for all numbers \(x\).
+
+HINT: USE Derivative by definition
+
+Enter 99 when done.
+
+---

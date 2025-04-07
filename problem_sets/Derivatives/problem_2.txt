@@ -1,0 +1,13 @@
+**Problem 2.** (1 point)
+
+Suppose that \(f (x) = \dfrac{1}{x}\) for all numbers \(x 
+eq 0\).
+
+Determine what
+  \(\dfrac{f (p) - 0.02}{p - 50}\)
+
+approaches as \(p\) approaches 50.
+
+\(\dfrac{-1}{?}\) where \(?=\)
+
+---

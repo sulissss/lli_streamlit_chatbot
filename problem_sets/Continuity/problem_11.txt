@@ -1,0 +1,11 @@
+**Problem 11.** (1 point)
+
+Let \(f(x) =
+            \begin{cases}
+              -\frac{7}{x+1}, &\text{if}\ x< -1\\
+              3 x+8, &\text{if}\ x> -1
+              \end{cases}\)
+
+Calculate the following limits.  If the limit doesn't exist but it makes sense to call it \(\infty\) enter **Infinity**, for \(-\infty\) enter **-Infinity**; in other cases where the limit does not exist enter **DNE**.
+
+\(\displaystyle{\lim_{x\to -1^-}f(x)=}\)

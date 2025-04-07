@@ -1,0 +1,6 @@
+**Problem 10.** \footnotesize(1 point)\normalsize
+
+Evaluate the following limits.
+
+(a)
+\(\displaystyle \lim_{ x \to \infty } \frac{8}{e^{x}-4}=\)

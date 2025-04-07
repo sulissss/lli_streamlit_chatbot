@@ -1,0 +1,10 @@
+**Problem 8.** (1 point)
+
+Suppose that \(f (x) = x^{n}\) for all numbers \(x\).
+
+If \(a\) is a number, determine what
+  \(rac{f (p) - f (a)}{p - a}\)
+
+approaches as \(p\) approaches a.
+
+---

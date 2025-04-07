@@ -1,0 +1,231 @@
+**Problem 1.** (1 point)
+
+**Problem**
+
+A continuous function is intuitively one whose graph can be drawn without lifting a pen off of the paper.
+
+More mathematically, a function \(f\) is continuous at \(a\) if \(f\) is defined at \(a\) and the limit of \(f\) at \(a\) exists and if the limit value and the function value at \(a\) are equal.
+
+If any of these three conditions fail to hold then \(f\) is not defined at \(a\).
+
+It will be helpful to keep in mind that polynomial functions, sin and cos functions, their sums, differences, and products are continuous everywhere.
+
+Quotients of such functions are continuous wherever the denominator is not equal to zero.
+
+For example, the function \(f\) defined by
+
+\(f (x) = \sin (x)\) on the interval \(I = [0, 2 \pi]\)
+
+is continuous everywhere.
+
+\(f (x) = \tan (x)\) on the interval \(I = [0, 2 \pi]\) is
+
+*   A. Discontinuous at \(\pi / 2\) and \(3 \pi / 2\) because it is not defined at those points.
+
+*   B. Continuous everywhere
+
+*   C. none of the above
+
+*Answer(s) submitted:*
+*    (incorrect)
+
+---
+**Problem 2.** (1 point)
+
+**Problem**
+
+A function \(f\) is continuous at \(a\) if all of the following hold:
+
+1) \(f (a)\) exists
+
+2) \(\lim_{x \rightarrow a} f (x)\) exists
+
+3) \(\lim_{x \rightarrow a} f (x) = f (a)\)
+
+The function is not continuous at \(a\) if any one of the conditions fails to hold.
+
+Consider the function \(f\) defined by
+
+\[f(x) = \begin{cases}
+{0} & \text{ if }  x \leq 0   \\
+ {x^2} & \text{ if }  x > 0.  
+             \end{cases}\]
+
+Then
+
+*   A. \(f (0)\) does not exist
+*   B. \(f (0)\) exists
+
+*   A. \(\lim_{x \rightarrow 0} f (x)\) exists
+*   B. \(\lim_{x \rightarrow 0} f (x)\) does not exist
+
+*   A. \(\lim_{x \rightarrow 0} f (x)\) does not exist
+*   B. \(\lim_{x \rightarrow 0} f(x)\) exists but \(\lim_{x \rightarrow 0} f (x) \neq f (0)\)
+*   C. \(\lim_{x \rightarrow 0} f (x) = f (0)\)
+
+*   A. \(f\) is continuous at 0
+*   B. \(f\) is not continuous at 0
+
+*Answer(s) submitted:*
+*
+
+*
+
+*
+
+*
+(incorrect)
+
+---
+**Problem 3.** (1 point)
+
+**Problem**
+
+Consider the function
+
+\[H(x) = \begin{cases}
+{0} & \text{ if }  x \leq 0   \\
+ {1} & \text{ if }  x > 0.  
+             \end{cases}\]
+
+Then
+
+*   A. \(H (x)\) is discontinuous at \(x = 0\) and continuous at \(x = 1\)
+*   B. \(H (x)\) is continuous at \(x = 0\) and discontinuous at \(x = 1\)
+*   C. \(H (x)\) is continuous at \(x = 0\) and \(x = 1\)
+*   D. \(H (x)\) is discontinuous at \(x = 0\) and discontinuous at \(x = 1\)
+*   E. None of the above
+
+*Answer(s) submitted:*
+
+(incorrect)
+
+---
+**Problem 4.** (1 point)
+
+**Problem**
+
+If \(f\) and \(g\) are functions with \(f\) continuous at \(a\) and \(g\) continuous at \(f (a)\) then the composite function \(g \circ f\) is continuous at \(a\).
+
+Let \(f (x) = \sin (x)\) and \(g (x) = 1 / x\).
+
+Consider the composition \((g \circ f) (x) = g (f (x))\)
+
+The composition \(g \circ f\) is continuous for all \(x\) except
+
+*   A.  \(x = 0\)
+*   B. \(x = 0, \pm \pi, \pm 2 \pi, \ldots\)
+*   C.  \(x = \pi\)
+*   D. none of the above
+
+*Answer(s) submitted:*
+*````* (incorrect)
+
+---
+**Problem 5.** (1 point)
+
+Define a function \(G : \mathbb{R} \rightarrow \mathbb{R}\) by
+
+\[G(x) = \begin{cases}
+\sqrt x & \text{ for } x \neq 18   \\
+ {c} & \text{ for } x = 18.  
+             \end{cases}\]
+
+What value should \(c\) be so that \(G\) is continuous at 18 ?
+
+---
+**Problem 6.** **(1 point)**
+
+Estimate the following limit by substituting smaller and smaller values of \(h\).
+
+\(\lim\limits_{h \rightarrow 0} \frac{4^h-1   }{h} =\)
+\mbox{\parbox[t]{4ex}{}}
+
+---
+**Problem 7.** (1 point)
+
+Consider the function \(f(x) = 4 x^3 + 3 x^2 + 5\).  For what values of \(k\) does the Intermediate Value Theorem tell us that there is a \(c\) in the interval \([0,1]\) such that \(f(c) = k\)?
+
+---
+**Problem 8.** (1 point)
+
+If \(\displaystyle{\lim_{x\rightarrow a} f(x)=0}\) and \(\displaystyle{\lim_{x\rightarrow a} g(x)=0}\), then \(\displaystyle{\lim_{x\rightarrow a} \frac{f(x)}{g(x)}}\)
+
+\begin{itemize}
+\item A. is equal to one.
+\item B. is equal to \(\infty\).
+\item C. must exist.
+\item D. does not exist.
+\item E. cannot be determined because there is not enough information.
+
+\end{itemize}
+
+In the answer box below, explain your reasoning for the choice you made above.
+
+Use complete sentences and correct grammar, spelling, and punctuation. Be specific and detailed. Write as if you were explaining the answer to someone else in class.
+
+---
+**Problem 9.** (1 point)
+
+Evaluate the following limits without using a calculator. Enter *DNE* if the limit does not exist.
+
+(a)  \( \displaystyle \lim_{x \to - 1^{+}} (x+6) \frac{|x+1|}{x+1} = \)
+
+---
+**Problem 10.** (1 point)
+
+Evaluate the following limits.
+
+(a)
+$\displaystyle \lim_{ x \to \infty } \frac{8}{e^{x}-4}=$
+
+---
+**Problem 11.** (1 point)
+
+Let \(f(x) =
+            \begin{cases}
+              -\frac{7}{x+1}, &\text{if}\ x< -1\\
+              3 x+8, &\text{if}\ x> -1
+              \end{cases}\)
+
+Calculate the following limits.  If the limit doesn't exist but it makes sense to call it \(\infty\) enter **Infinity**, for \(-\infty\) enter **-Infinity**; in other cases where the limit does not exist enter **DNE**.
+
+\(\displaystyle{\lim_{x\to -1^-}f(x)=}\)
+
+---
+**Problem 12.** (1 point)
+
+The slope of the tangent line to the graph of the function \(y = 2 x^3\) at the point \((4 , 128)\) is \(\text{lim}_{ x\mapsto 4 } \frac {2 x^3 -128 }{x- 4}\). By trying values of \(x\) near \(4\), find the slope of the tangent line.
+
+---
+**Problem 13.** *(1 point)*
+
+Consider the following limit:
+\[\lim_{x\to 3}\frac{18 - 3 x - |x^2 - 6 x|}{|x^2- 36| - 27}\]
+
+We can simplify this limit by rewriting it as an expression without absolute values as follows:
+
+\(\lim_{x\to 3}\) 
+
+---
+**Problem 14.** (1 point)
+
+Let
+\[f(x) = \begin{cases}\displaystyle{b-2x}&\text{if}\ x < -1\cr
+\displaystyle{-\frac{6}{x-b}}&\text{if}\ x \ge -1.\end{cases}\]
+Find the two values of \(b\) for which \(f\) is
+a continuous function at \(-1\).
+
+The one with the greater absolute value is
+\(b=\)
+
+---
+**Problem 15.** (1 point)
+
+A function is said to have a **horizontal asymptote** if either the limit at infinity exists or the limit at negative infinity exists.
+
+Show that each of the following functions has a horizontal asymptote by calculating the given limit.
+
+\( \displaystyle{ \lim_{x\to\infty}\frac{-13 x}{8+2 x}= } \)
+
+---

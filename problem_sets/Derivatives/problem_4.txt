@@ -1,0 +1,16 @@
+**Problem 4.** (1 point) \path|setIntroduction_to_Derivative/Intro_to_derivative_problem_7.pg|
+
+**Problem**
+
+Suppose that \(f (x) = x^{1/2}\) for all numbers \(x > 0\).
+
+Determine what
+  \(rac{f (p) - 4.58257569495584 }{p - 21}\)
+  
+  
+  
+  approaches as \(p\) approaches 21.
+
+\(\dfrac{1}{2\sqrt{ ? }}\) where  \(?=\) \mbox{\parbox[t]{3ex}{}}
+
+---

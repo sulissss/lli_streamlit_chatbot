@@ -1,0 +1,17 @@
+**Problem 3.** (1 point) *setIntroduction_to_Derivative/Intro_to_derivative_problem_6.pg*
+
+**Problem**
+
+Suppose that \(f (x) = \dfrac{1}{x^2}\) for all numbers \(x 
+eq 0\).
+
+Determine what
+  \(\dfrac{f (p) - 0.000260145681581686}{p - 62}\)
+  
+  
+  
+  approaches as \(p\) approaches 62.
+
+\(\dfrac {-2}{?}\) where \(?=\)
+
+---

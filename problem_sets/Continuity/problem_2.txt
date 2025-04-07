@@ -1,0 +1,45 @@
+**Problem 2.** (1 point)
+
+**Problem**
+
+A function \(f\) is continuous at \(a\) if all of the following hold:
+
+  1) \(f (a)\) exists
+
+  2) \(\lim_{x \rightarrow a} f (x)\) exists
+
+  3) \(\lim_{x \rightarrow a} f (x) = f (a)\)
+
+The function is not continuous at \(a\) if any one of the conditions fails to hold.
+
+Consider the function \(f\) defined by
+
+\[f(x) = \begin{cases}
+{0} & \text{ if }  x \leq 0   \\
+ {x^2} & \text{ if }  x > 0.
+             \end{cases}\]
+
+Then
+
+*   A. \(f (0)\) does not exist
+*   B.  \(f (0)\) exists
+
+*   A.  \(\lim_{x \rightarrow 0} f (x)\) exists
+*   B. \(\lim_{x \rightarrow 0} f (x)\) does not exist
+
+*   A. \(\lim_{x \rightarrow 0} f (x)\) does not exist
+*   B. \(\lim_{x \rightarrow 0} f(x)\) exists but \(\lim_{x \rightarrow 0} f (x) \neq f (0)\)
+*   C.   \(\lim_{x \rightarrow 0} f (x) = f (0)\)
+
+*   A.  \(f\) is continuous at 0
+*   B.  \(f\) is not continuous at 0
+
+*Answer(s) submitted:*
+*
+
+*
+
+*
+
+*
+(incorrect)

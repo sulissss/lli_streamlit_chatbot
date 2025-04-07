@@ -1,0 +1,14 @@
+**Problem 1.** (1 point)
+
+Suppose that \(f (x) = x^2\) for all numbers \(x\). 
+
+Determine what
+  \(\dfrac{f (p) - 7744}{p - 88}\)
+  
+  
+  
+  approaches as \(p\) approaches 88. 
+
+2\(	imes\)\mbox{\parbox[t]{5ex}{
+
+---

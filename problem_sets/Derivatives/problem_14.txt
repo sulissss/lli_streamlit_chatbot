@@ -1,0 +1,12 @@
+**Problem 14.** (1 point)
+
+Problem
+
+Suppose that \(f (x) = (x^2 + x + 1) (x^3 + x^2 + x + 1)\) for all numbers
+\(x\).
+
+Find \(f'(x)\)
+
+\(f'(x)=\)
+
+---

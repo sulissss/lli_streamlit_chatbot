@@ -1,0 +1,30 @@
+**Problem 1.** (1 point)
+
+**Problem**
+
+A continuous function is intuitively one whose graph can be drawn without lifting a pen off of the paper.
+
+More mathematically, a function \(f\) is continuous at \(a\) if \(f\) is defined at \(a\) and the limit of \(f\) at \(a\) exists and if the limit value and the function value at \(a\) are equal.
+
+If any of these three conditions fail to hold then \(f\) is not defined at \(a\).
+
+It will be helpful to keep in mind that polynomial functions, sin and cos functions, their sums, differences, and products are continuous everywhere.
+
+Quotients of such functions are continuous wherever the denominator is not equal to zero.
+
+For example, the function \(f\) defined by
+
+\(f (x) = \sin (x)\) on the interval \(I = [0, 2 \pi]\)
+
+is continuous everywhere.
+
+\(f (x) = \tan (x)\) on the interval \(I = [0, 2 \pi]\) is
+
+*   A. Discontinuous at \(\pi / 2\) and \(3 \pi / 2\) because it is not defined at those points.
+
+*   B. Continuous everywhere
+
+*   C. none of the above
+
+*Answer(s) submitted:*
+*   (incorrect)

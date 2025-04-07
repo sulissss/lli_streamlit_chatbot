@@ -1,0 +1,10 @@
+**Problem 5.** (1 point)
+
+Define a function \(G : \mathbb{R} \rightarrow \mathbb{R}\) by
+
+\[G(x) = \begin{cases}
+\sqrt x & \text{ for } x \neq 18   \\
+ {c} & \text{ for } x = 18.  
+             \end{cases}\] 
+
+What value should \(c\) be so that \(G\) is continuous at 18 ?

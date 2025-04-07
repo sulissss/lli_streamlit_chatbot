@@ -1,0 +1,9 @@
+**Problem 15.** (1 point) setIntroduction_to_Derivative/Intro_to_derivative_problem_19.pg
+
+**Problem**
+
+Consider the function \(f (x) = |x|\) for all \(x\).
+
+\(\lim_{x ightarrow 0^-} rac{f (x) - f (0)}{x - 0}  =\)
+
+---

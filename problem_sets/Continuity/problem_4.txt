@@ -1,0 +1,20 @@
+**Problem 4.** (1 point)
+
+**Problem**
+
+If \(f\) and \(g\) are functions with \(f\) continuous at \(a\) and \(g\) continuous at \(f (a)\) then the composite function \(g \circ f\) is continuous at \(a\).
+
+Let \(f (x) = \sin (x)\) and \(g (x) = 1 / x\).
+
+Consider the composition \((g \circ f) (x) = g (f (x))\)
+
+The composition \(g \circ f\) is continuous for all \(x\) except
+
+* A.  \(x = 0\)
+* B. \(x = 0, \pm \pi, \pm 2 \pi, \ldots\)
+* C.  \(x = \pi\)
+* D. none of the above
+
+*Answer(s) submitted:*
+
+(incorrect)

@@ -1,0 +1,17 @@
+**Problem 5.** (1 point) *setIntroduction_to_Derivative/Intro_to_derivative_problem_8.pg*
+
+**Problem**
+
+Suppose that \(f (x) = x^{1/3}\) for all numbers \(x > 0\).
+
+Determine what
+  \(rac{f (p) - 4.23582358425489}{p - 76}\)
+  
+  
+  
+  approaches as \(p\) approaches 76.
+
+ 
+\(\dfrac {1} {3*76^?}\)
+
+where?=
