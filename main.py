@@ -25,7 +25,7 @@ id_ = query_params.get("id", None)
 with open("problem_sets.json", "r") as file:
     problem_sets = json.loads(file.read())
 
-with open("clean_problem_sets.json", "r") as file:
+with open("display_problem_sets.json", "r") as file:
     display_problem_sets = json.load(file)
 
 # Routing logic

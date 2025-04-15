@@ -1,3 +1,4 @@
+import re
 from google import genai
 
 client = genai.Client(api_key="AIzaSyBjPiyQYO_c1t5Aexpw0qkeVatbr5o-jjM")
@@ -16,4 +17,6 @@ Student's prompt:
     )
     for chunk in response_stream:
         if chunk.text:
-            yield chunk.text
+            content = re.sub(r'\\\((.*?)\\\)', r'$\1$', chunk.text)
+            yield content
+            # yield chunk.text
