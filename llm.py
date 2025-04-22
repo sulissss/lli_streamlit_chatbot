@@ -5,9 +5,9 @@ client = genai.Client(api_key="AIzaSyBjPiyQYO_c1t5Aexpw0qkeVatbr5o-jjM")
 
 def stream_response(prompt, question_text):
     full_prompt = f"""Assume you are a teacher guiding a confused student toward the answer.
+- If the student mentions the right answer, then respond with BINGO! You found the correct answer.
 - You must not directly provide the answer but help them find the right approach.
-- However, if the student is headed in the right direction, then tell them that they are correct.
-- Also, if the student themselves arrive at the right answer, then respond with BINGO! You found the correct answer.
+- If the student is headed in the right direction, then tell them that they are correct.
 
 The question:
 {question_text}
