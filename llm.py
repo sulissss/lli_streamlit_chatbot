@@ -7,8 +7,6 @@ load_dotenv('.env')
 
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-# Context-aware Gemini chat functions
-
 def create_chat():
     """Create a new Gemini chat object for context retention."""
     return client.chats.create(model="gemini-2.0-flash")
@@ -34,11 +32,9 @@ Rules:
 - Never directly give away the answer unless the student has already found it.
 - Use simple, clear language and a friendly tone.
 """
-    # On first message, provide system prompt and question
     if chat is None:
         chat = create_chat()
         chat.send_message(system_prompt + f"\nThe question:\n{question_text}")
-    # Send the user's message as part of the conversation
     response = chat.send_message_stream(prompt)
     for chunk in response:
         if chunk.text:
