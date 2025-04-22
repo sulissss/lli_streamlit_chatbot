@@ -61,6 +61,6 @@
       "problem_6": "\\(\\lim_{x \\rightarrow \\frac{\\pi}{4}} \\frac{\\sin^2(x) - \\frac{1}{2}}{x - \\frac{\\pi}{4}} =\\)"
     },
     "Indefinite Integration": {
-      "problem_1": "f takes the same value for any x in the interval over which the derivative is zero. \n\n A function f such that f' (x) = 0 for all x and such that f (2) = $a is f (x) ="
+      "problem_1": "f takes the same value for any x in the interval over which the derivative is zero. \n\n A function f such that f'(x) = 0 for all x and such that f (2) = 26 is f (x) ="
     }          
 }
