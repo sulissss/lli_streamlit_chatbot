@@ -24,9 +24,6 @@ id_ = query_params.get("id", None)
 with open("problem_sets.json", "r") as file:
     problem_sets = json.loads(file.read())
 
-with open("display_problem_sets.json", "r") as file:
-    display_problem_sets = json.load(file)
-
 # Routing logic
 def show_home():
     st.title("🏠 Home Page")
@@ -41,7 +38,44 @@ def show_pset(pset_name, id_):
     st.title(f"📘 {pset_name} Problem {id_}")
     st.markdown("### Current Problem")
 
-    display_current_problem = re.sub(r'\\\((.*?)\\\)', r'$\1$', display_problem_sets[pset_name][f'problem_{id_}'])
+    # --- Extract variable values from query parameters ---
+    # e.g., value_a=5 -> {'a': '5'}
+    variable_values = {}
+    for key, value in query_params.items():
+        if key.startswith("value_"):
+            var_name = key[len("value_"):]
+            # query_params values are lists, take the first
+            if isinstance(value, list):
+                variable_values[var_name] = value[0]
+            else:
+                variable_values[var_name] = value
+
+    # --- Replace all $<var> in the problem text with their values ---
+    raw_problem = problem_sets[pset_name][f'problem_{id_}']
+    def substitute_vars(text, values):
+        def replacer(match):
+            var = match.group(1)
+            return str(values.get(var, match.group(0)))
+        return re.sub(r'\$(\w+)', replacer, text)
+
+    # Use a single variable for both display and LLM input, allow user editing
+    problem_key = f'{pset_name}_{id_}'
+    if f'edited_problem_{problem_key}' not in st.session_state:
+        # First time: use the substituted text
+        st.session_state[f'edited_problem_{problem_key}'] = substitute_vars(raw_problem, variable_values)
+    edited_problem_text = st.session_state[f'edited_problem_{problem_key}']
+
+    # Dropdown (expander) for editing the problem statement
+    with st.expander("✏️ Edit Problem Statement", expanded=False):
+        new_text = st.text_area("Edit the problem text below. Changes will affect both display and chatbot:", value=edited_problem_text, height=200, key=f"edit_area_{problem_key}")
+        if st.button("Confirm", key=f"confirm_btn_{problem_key}"):
+            st.session_state[f'edited_problem_{problem_key}'] = new_text
+            st.success("Problem text updated for this session!")
+        st.info("Edits are session-only and will not persist if you reload the app.")
+
+    # Always use the latest edited text for LLM and display
+    problem_text = st.session_state[f'edited_problem_{problem_key}']
+    problem_text = re.sub(r'\\\((.*?)\\\)', r'$\1$', problem_text)
 
     st.markdown(
         """
@@ -55,12 +89,9 @@ def show_pset(pset_name, id_):
         """,
         unsafe_allow_html=True,
     )
-
-    with st.expander("📘 Click to view the problem", expanded=True):
+    with st.expander("\U0001F4D8 Click to hide the problem", expanded=True):
         st.markdown(f'<div class="gray-expander">', unsafe_allow_html=True)
-
-        render_text_with_latex(display_current_problem)
-
+        render_text_with_latex(problem_text)
         st.markdown("</div>", unsafe_allow_html=True)
 
     if "messages" not in st.session_state:
@@ -74,10 +105,8 @@ def show_pset(pset_name, id_):
         st.chat_message("user").markdown(prompt)
         st.session_state.messages.append({"role": "user", "content": prompt})
 
-        current_problem = problem_sets[pset_name][f'problem_{id_}']
-
         with st.chat_message("assistant"):
-            response = st.write_stream(stream_response(prompt, current_problem))
+            response = st.write_stream(stream_response(prompt, problem_text))
 
         st.session_state.messages.append({"role": "assistant", "content": response})
 
