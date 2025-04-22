@@ -59,5 +59,8 @@
       "problem_4": "\\(\\lim_{x \\rightarrow 1} \\frac{x^3 + x^2 - 5x + 3}{x^3 - 7x^2 + 11x - 5} =\\)",
       "problem_5": "\\(\\lim_{x \\rightarrow 0} \\frac{x^3 + x^2 - 5x}{x^3 - 7x^2 + 11x} =\\)",
       "problem_6": "\\(\\lim_{x \\rightarrow \\frac{\\pi}{4}} \\frac{\\sin^2(x) - \\frac{1}{2}}{x - \\frac{\\pi}{4}} =\\)"
-    }
+    },
+    "Indefinite Integration": {
+      "problem_1": "f takes the same value for any x in the interval over which the derivative is zero. \n\n A function f such that f' (x) = 0 for all x and such that f (2) = $a is f (x) ="
+    }         
 }

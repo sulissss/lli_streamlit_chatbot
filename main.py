@@ -37,6 +37,7 @@ def show_home():
     st.link_button("Go to Rolle's Theorem", url="?page=rolles_theorem&id=1")
     st.link_button("Go to L' Hopital Rule", url="?page=lhopital_rule&id=1")
     st.link_button("Go to Optimization", url="?page=optimization&id=1")
+    st.link_button("Go to Indefinite Integration", url="?page=indefinite_integration&id=1")
     
 
 def show_pset(pset_name, id_):
@@ -61,24 +62,6 @@ def show_pset(pset_name, id_):
 
     with st.expander("📘 Click to view the problem", expanded=True):
         st.markdown(f'<div class="gray-expander">', unsafe_allow_html=True)
-
-        # Detect and extract \begin{cases} ... \end{cases} block
-        # match = re.search(r'(\\\[)?\s*(f\(x\)\s*=\s*)?\\begin{cases}.*?\\end{cases}\s*(\\\])?', display_current_problem, re.DOTALL)
-
-        # if match:
-        #     start, end = match.span()
-        #     before = display_current_problem[:start].strip()
-        #     cases_block = display_current_problem[start:end].strip()
-        #     after = display_current_problem[end:].strip()
-
-        #     if before:
-        #         render_text_with_latex(before)
-        #     if cases_block:
-        #         st.latex(rf'''{cases_block}''')
-        #     if after:
-        #         render_text_with_latex(after)
-        # else:
-        #     render_text_with_latex(display_current_problem)
 
         render_text_with_latex(display_current_problem)
 
@@ -110,13 +93,9 @@ elif page == "rolles_theorem":
     show_pset("Rolle's Theorem", id_)
 elif page == "lhopital_rule":
     show_pset("L'Hopital Rule", id_)
+elif page == "indefinite_integration":
+    show_pset("Indefinite Integration", id_)
 elif page and id_ and type(page) == str:
     show_pset(str(page).capitalize(), id_)
 else:
     st.error("Page not found.")
-
-# print(type(problem_sets))
-# print(problem_sets['Continuity']['problem_1'])
-
-# with open("clean_problem_sets.json", "w") as file:
-#     file.write(json.dumps(problem_sets, indent=4))
