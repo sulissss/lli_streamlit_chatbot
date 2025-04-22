@@ -21,7 +21,6 @@ page = query_params.get("page", "home")
 id_ = query_params.get("id", None)
 
 
-# problem_sets = load_problem_sets()
 with open("problem_sets.json", "r") as file:
     problem_sets = json.loads(file.read())
 
@@ -32,8 +31,6 @@ with open("display_problem_sets.json", "r") as file:
 def show_home():
     st.title("🏠 Home Page")
     st.write("Welcome to the homepage!")
-    # st.link_button("Go to Continuity 1", url="?page=continuity&id=1")
-    # st.link_button("Go to Derivatives 1", url="?page=derivatives&id=1")
     st.link_button("Go to Rolle's Theorem", url="?page=rolles_theorem&id=1")
     st.link_button("Go to L' Hopital Rule", url="?page=lhopital_rule&id=1")
     st.link_button("Go to Optimization", url="?page=optimization&id=1")
@@ -44,7 +41,6 @@ def show_pset(pset_name, id_):
     st.title(f"📘 {pset_name} Problem {id_}")
     st.markdown("### Current Problem")
 
-    # with open(f"problem_sets/{pset_name}/problem_{id_}.txt", "r") as file:
     display_current_problem = re.sub(r'\\\((.*?)\\\)', r'$\1$', display_problem_sets[pset_name][f'problem_{id_}'])
 
     st.markdown(
