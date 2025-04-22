@@ -4,10 +4,10 @@ from google import genai
 client = genai.Client(api_key="AIzaSyBjPiyQYO_c1t5Aexpw0qkeVatbr5o-jjM")
 
 def stream_response(prompt, question_text):
-    full_prompt = f"""Assume you are a teacher guiding a confused student toward the answer.
-- If the student mentions the right answer, then respond with BINGO! You found the correct answer.
+    full_prompt = f"""Assume you are a teacher guiding a confused student toward the answer. Your goal is to continue doing so until they arrive at the right solution.
 - You must not directly provide the answer but help them find the right approach.
 - If the student is headed in the right direction, then tell them that they are correct.
+- If the student mentions the right answer, then only respond with "BINGO! You found the correct answer." The conversation should then be concluded and no further questions should be asked.
 
 The question:
 {question_text}
