@@ -63,17 +63,17 @@
     "Indefinite Integration": {
         "problem_1": "f takes the same value for any x in the interval over which the derivative is zero. \n\n A function f such that f'(x) = 0 for all x and such that f (2) = $a is f (x) =",
         "problem_3": "\\(\\int \\sin(x) \\, \\mathrm{d}x = \\)",
-        "problem_4": "\\(\\int x^{$a} \\, \\mathrm{d}x = \\frac{x^{$a + 1}}{$a + 1} + C\\)",
-        "problem_5": "- $\\int \\sin (x) dx = \\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\csc^2 (x) dx = \\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\sec (x) \\tan (x) dx = \\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\csc (x) \\cot (x) dx = \\_\\_\\_\\_\\_ (x) + C$",
-        "problem_6": "- $\\int \\frac{1}{\\sqrt{1 - x^2}} dx = \\_\\_\\_\\_\\_ ^{- 1} (x) + C$\n\n- $\\int \\frac{1}{1 + x^2} dx = \\_\\_\\_\\_\\_ ^{- 1} (x) + C$",
+        "problem_4": "For $n \\neq -1$\n\n$\\displaystyle \\int x^n \\, dx = \\frac{x^{n+1}}{n+1} + C$\n\n$\\displaystyle \\int x^{$a} \\, dx = \\underline{\\phantom{------}} / \\underline{\\phantom{------}} + C$",
+        "problem_5": "- $\\int \\sin (x) dx = \\_\\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\csc^2 (x) dx = \\_\\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\sec (x) \\tan (x) dx = \\_\\_\\_\\_\\_\\_ (x) + C$\n\n- $\\int \\csc (x) \\cot (x) dx = \\_\\_\\_\\_\\_\\_ (x) + C$",
+        "problem_6": "- $\\int \\frac{1}{\\sqrt{1 - x^2}} dx = \\_\\_\\_\\_\\_\\_ ^{- 1} (x) + C$\n\n- $\\int \\frac{1}{1 + x^2} dx = \\_\\_\\_\\_\\_\\_ ^{- 1} (x) + C$",
         "problem_8": "There is a function $f$ such that $f'(x) = \\left(x^3 + 3x^2 - 4x + 1\\right)^{1/3} (x^2 + 2x - \\frac{4}{3})$ for all $x$ for which this is defined.\n\n$\\displaystyle f(x) = a \\times p(x)^b$, where $a$ is a constant, $p$ is a polynomial, and $b$ is a constant.\n\n$a = \\underline{\\phantom{----}}$\n\n$b = \\underline{\\phantom{----}}$\n\n$p(x) = \\underline{\\phantom{--------------}}$",
-        "problem_9": "Evaluate $I = \\int x \\sqrt{1 + x} \\, dx.\n\n$I = \\underline{\\phantom{----}} \\, u^{5/2} - \\underline{\\phantom{----}} \\, u^{3/2} + C$\n\n$I = \\underline{\\phantom{----}} \\, (x + 1)^{5/2} - \\underline{\\phantom{----}} \\, (x + 1)^{3/2} + C$",
-        "problem_10": "Consider $I = \\int \\frac{1}{a^2 + x^2} \\, dx.\n\n$I = \\frac{1}{a} \\tan^{-1}( \\underline{\\phantom{----}} ) + C$",
+        "problem_9": "Evaluate $I = \\int x \\sqrt{1 + x} \\, dx$\n\n$I = \\underline{\\phantom{----}} \\, u^{5/2} - \\underline{\\phantom{----}} \\, u^{3/2} + C$\n\n$I = \\underline{\\phantom{----}} \\, (x + 1)^{5/2} - \\underline{\\phantom{----}} \\, (x + 1)^{3/2} + C$",
+        "problem_10": "Consider $I = \\int \\frac{1}{a^2 + x^2} \\, dx$\n\n$I = \\frac{1}{a} \\tan^{-1}( \\underline{\\phantom{----}} ) + C$",
         "problem_11": "Let's find a function $f$ so that $f'(x) = \\frac{1}{x^2 + x + 1}$.\n\n$I = \\frac{1}{a} \\tan^{-1} \\left( \\frac{x + 1/2}{a} \\right) + C$ where $a = \\underline{\\phantom{----}}$",
         "problem_12": "$\\int \\left[ 4 \\sec^2(3x) + 7x^4 \\right] dx = \\underline{\\phantom{----}} x^5 + \\underline{\\phantom{----}} \\tan( \\underline{\\phantom{----}} ) + C$",
         "problem_13": "$\\int \\sec(2x) \\tan(2x) \\, dx = \\underline{\\phantom{----}} \\sec( \\underline{\\phantom{----}} ) + C$",
         "problem_14": "$\\int \\csc (3 x) \\cot (3 x) d x = \\underline{\\phantom{----}} \\csc (3 x) + C$",
-        "problem_15": "$\\int \\frac{1}{\\sqrt{1 - a^2 x^2}} \\, dx = \\underline{\\phantom{----}} \\sin^{-1}( \\underline{\\phantom{----}} x ) + C$",
+        "problem_15": "\\(\\int \\frac{1}{\\sqrt{1 - $a^2 x^2}} \\, dx = \\underline{\\phantom{----}} \\sin^{-1}( \\underline{\\phantom{----}} x ) + C\\)",
         "problem_16": "$\\int \\frac{2 x}{1 - x^2} d x = \\log (1 /\\underline{\\phantom{----}} ) + C$",
         "problem_17": "$\\int \\frac{x}{\\sqrt{1 - x^2}} \\, dx = -\\sqrt{\\underline{\\phantom{----}} } + C$"
     }
