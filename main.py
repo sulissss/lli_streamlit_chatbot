@@ -33,8 +33,7 @@ def show_home():
 
 def show_pset(pset_name, id_):
     st.title(f"📘 {pset_name} Problem {id_}")
-    st.markdown("### Current Problem")
-
+    
     variable_values = {}
     for key, value in query_params.items():
         if key.startswith("value_"):
@@ -67,6 +66,7 @@ def show_pset(pset_name, id_):
     problem_text = st.session_state[f'edited_problem_{problem_key}']
     problem_text = re.sub(r'\\\((.*?)\\\)', r'$\1$', problem_text)
 
+    st.markdown("### Current Problem")
     st.markdown(
         """
         <style>
@@ -79,7 +79,7 @@ def show_pset(pset_name, id_):
         """,
         unsafe_allow_html=True,
     )
-    with st.expander("\U0001F4D8 Click to hide the problem", expanded=True):
+    with st.expander("📝 Hide Problem Statement", expanded=True):
         st.markdown(f'<div class="gray-expander">', unsafe_allow_html=True)
         render_text_with_latex(problem_text)
         st.markdown("</div>", unsafe_allow_html=True)
