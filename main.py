@@ -32,7 +32,7 @@ def show_home():
     
 
 def show_pset(pset_name, id_):
-    st.title(f"📘 {pset_name} Problem {id_}")
+    st.title(f"📘 {pset_name}: Problem {id_}")
     
     variable_values = {}
     for key, value in query_params.items():
